@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    app/src/main/res/xml/file_provider_paths.xml
+    Grants FileProvider access to the app's cache directory so the camera
+    Intent can write photos there (used in ResumeScannerScreen and ProfileScreen).
+-->
+<paths>
+    <cache-path name="camera_photos" path="." />
+    <external-cache-path name="external_camera_photos" path="." />
+</paths>
